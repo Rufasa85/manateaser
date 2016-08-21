@@ -1,0 +1,28 @@
+{
+  "name": "manateaser",
+  "version": "1.0.0",
+  "description": "in the mood for a random manatee pun?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rufasa85/manateaser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rufasa85/manateaser/issues"
+  },
+  "homepage": "https://github.com/Rufasa85/manateaser#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.1"
+  }
+}
