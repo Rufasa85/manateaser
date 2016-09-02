@@ -1,5 +1,19 @@
-<h1 class = 'text-center'>Manatee Jokes here!</h1>
-<button type="button" class="btn btn-default">New Joke Button</button>
-<div class="well">
-    <p>form for new jokez</p>
+<div class = 'parallaxWindow' data-parallax='scroll' data-image-src='/assets/manateeparallax.JPG'>
+    <h1 class = 'text-center'>Manateaser!</h1>
+    <div class = 'jokeDiv'>
+        <p id = 'setup'>Setup</p>
+        <p id = 'punchline' hidden>Punchline</p>
+        <button type="button" class="btn btn-default">New Joke Button</button>
+    </div>
+    <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-xs-offset-4 col-md-4 col-xs-offset-4 col-lg-4 col-xs-offset-4">
+            <div class="well">
+                <form action="" method="POST" role="form">
+                    <div class="form-group">
+                        <input type="joke" class="form-control" id="joke" name='joke' placeholder="New joke? Send it to us!">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
